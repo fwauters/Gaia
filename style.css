@@ -1,0 +1,150 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html
+{
+  font-family: 'Ubuntu', sans-serif;
+  overflow-y: scroll;
+}
+nav
+{
+  width: 100%;
+  background-color: #781d7e;
+  position: fixed;
+}
+ul
+{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+#accueil
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+iframe
+{
+  border: solid 20px #781d7e;
+  border-radius: 15px;
+}
+blockquote
+{
+  color: #781d7e;
+  margin-top: 25px;
+  text-align: center;
+}
+blockquote > a
+{
+  color: #781d7e;
+  font-size: large;
+  font-weight: bold;
+}
+section > img
+{
+  width: 560px;
+  height: 315px;
+  margin: 25px;
+  border-radius: 15px;
+}
+article
+{
+  margin: 25px;
+  text-align: center;
+}
+h2
+{
+  font-size: xx-large;
+}
+article > p
+{
+  font-size: large;
+}
+.button1
+{
+  color: #781d7e;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  border-style: none;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+.button2
+{
+  color: white;
+  background-color: #781d7e;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  border-style: none;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+#nousSommes
+{
+  color: white;
+  background-color: #781d7e;
+  display: flex;
+}
+#nousFaisons
+{
+  color: #781d7e;
+  background-color: white;
+  display: flex;
+}
+#commentAider
+{
+  color: white;
+  background-color: #781d7e;
+  display: flex;
+}
+#nosCampagnes
+{
+  color: #781d7e;
+  background-color: white;
+  display: flex;
+}
+#autresAssociations
+{
+  color: white;
+  background-color: #781d7e;
+  display: flex;
+}
+#contacts
+{
+  color: #781d7e;
+  background-color: white;
+  display: flex;
+}
+footer
+{
+  width: 100%;
+  background-color: #781d7e;
+  position: absolute;
+  text-align: center;
+}
+footer > p
+{
+  color: white;
+  padding: 15px;
+}
